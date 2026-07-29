@@ -1,466 +1,410 @@
 # 🎓 School Management System
 
-A modern and responsive **School Management System** designed to simplify student management, academic tracking, attendance, and communication between schools, teachers, students, and parents.
+A modern and responsive **School Management System** designed to provide a centralized digital platform for managing school operations and improving communication between teachers, students, and parents.
 
-The project is being developed as a practical solution to replace fragmented paper-based processes with a centralized digital platform that makes student information easier to manage, access, and track.
-
----
-
-## 📌 Project Overview
-
-Managing students in a traditional school environment can involve a lot of paperwork, separate files, manual calculations, and communication through phone calls.
-
-This project aims to provide a centralized system where each user can access the information relevant to their role.
-
-The system is designed around three main user roles:
-
-* 👨‍🏫 **Teacher**
-* 👨‍🎓 **Student**
-* 👨‍👩‍👦 **Parent**
-
-Each role has its own experience, navigation, and dashboard content while remaining part of the same school management platform.
+The system aims to replace scattered paper-based processes and make important academic information easier to manage, access, and monitor through a simple and user-friendly interface.
 
 ---
 
-## 🎯 Project Goals
+## 📖 About The Project
 
-The main goal of the system is to make student management and academic tracking:
+In many schools, important student information such as grades, attendance, schedules, and academic records can be managed through paper files or separate systems.
 
-* Faster
-* More organized
-* Easier to access
-* Less dependent on paperwork
-* More transparent for parents and students
-* Easier for teachers to manage
+This can make it difficult for teachers to organize student information and for parents and students to stay updated on academic performance.
 
-The platform is designed to bring the **school and home closer together** by giving parents and students better visibility into academic performance and attendance.
+The **School Management System** provides a centralized platform where different users can access the information and functionality relevant to their role.
 
----
+The platform is designed around three main users:
 
-## 🚨 Problems We Are Solving
+- 👨‍🏫 **Teacher**
+- 👨‍🎓 **Student**
+- 👨‍👩‍👦 **Parent**
 
-The project was created around several real-world problems found in traditional school management.
-
-### Academic Tracking
-
-* Student grades are often recorded manually.
-* Teachers may need to calculate and organize grades manually.
-* There is no centralized academic record for each student.
-
-### Attendance
-
-* Attendance may be recorded on paper.
-* Parents cannot easily know whether their child attended school.
-* Finding historical attendance information can take time.
-
-### Communication
-
-* Communication between school and parents often depends on phone calls.
-* Parents may not receive timely updates about their child's performance.
-
-### Scheduling
-
-* Class schedules may be maintained manually.
-* Changes can be difficult to manage.
-* Schedule conflicts can occur between classes.
+Each user has a role-based experience while working within the same school management platform.
 
 ---
 
-## 👥 User Roles
+## 🎯 Project Vision
+
+The main vision of the project is to create a simple and practical digital environment that connects the **school, teachers, students, and parents**.
+
+Instead of depending on paperwork, separate files, and manual communication, the system provides a centralized place for managing and accessing important school information.
+
+The platform focuses on making school management:
+
+- 📌 More organized
+- ⚡ Faster
+- 🔎 Easier to access
+- 📊 Easier to monitor
+- 💬 Better connected
+- 📱 Accessible across different devices
+
+---
+
+## 👥 Users
 
 ### 👨‍🏫 Teacher
 
-Teachers can use the system to manage and monitor their students.
+Teachers can manage and monitor information related to their classes and students.
 
-Planned capabilities include:
+The system is designed to support activities such as:
 
-* View students
-* Manage classes
-* Record attendance
-* Enter grades
-* View schedules
-* Add student notes
-* Monitor academic progress
+- Managing students
+- Managing classes
+- Recording attendance
+- Managing grades
+- Viewing schedules
+- Monitoring student performance
+- Adding notes and observations
 
 ---
 
 ### 👨‍🎓 Student
 
-Students have access to their own academic information.
+Students can access their own academic information through their personal account.
 
-Planned capabilities include:
+The platform provides access to information such as:
 
-* View personal schedule
-* View grades
-* View attendance
-* View academic information
-* Receive school announcements
+- Personal schedule
+- Grades
+- Attendance
+- Academic information
+- School announcements
 
 ---
 
 ### 👨‍👩‍👦 Parent
 
-Parents can monitor their children's progress through one centralized platform.
+Parents can follow their children's academic progress and stay connected with the school.
 
-Planned capabilities include:
+The system is designed to provide access to:
 
-* View children's information
-* Monitor attendance
-* View grades
-* Follow academic progress
-* Receive announcements
-* Communicate with the school
-
----
-
-## 🚀 MVP
-
-The initial MVP is planned around the following core modules:
-
-* 🔐 Login
-* 📊 Dashboard
-* 👨‍🎓 Students
-* 🏫 Classes
-* 📋 Attendance
-* 📝 Grades
-* 🗓️ Schedule
-* 👤 Profile
+- Child information
+- Attendance
+- Grades
+- Academic performance
+- School announcements
+- Communication with teachers or the school
 
 ---
 
-## 🗓️ Development Roadmap
+## 🧩 Core Features
 
-The project is being developed incrementally through multiple Sprints.
+The platform is built around several core school management areas:
 
-### Sprint 1
+### 🔐 Authentication
 
-* Login
-* Profile
-* Basic Dashboard Layout
-* Role-based layouts
-* Initial responsive UI
+Secure user access based on the user's role within the school.
 
-### Sprint 2
+### 📊 Dashboard
 
-* Students
-* Add Student
-* Edit Student
-* View Student
-* Classes
+A centralized dashboard that presents relevant information and activities based on the logged-in user's role.
 
-### Sprint 3
+### 👨‍🎓 Student Management
 
-* Attendance
-* Schedule
+Managing student information and keeping student records organized in one place.
 
-### Sprint 4
+### 🏫 Classes
 
-* Grades
-* Final Dashboard Statistics
+Organizing students and teachers into classes and managing class-related information.
 
----
+### 📋 Attendance
 
-## 🚧 Future Features
+Recording and monitoring student attendance.
 
-The following features are considered potential future improvements:
+### 📝 Grades
 
-* 🔔 Attendance notifications for parents
-* 📊 Detailed Reports
-* 💬 Teacher–Parent messaging
-* 📄 Export grades and reports as PDF
-* 📈 Advanced academic statistics
-* 🔔 Real-time notifications
+Managing student grades and academic performance.
+
+### 🗓️ Schedule
+
+Providing organized access to class and lesson schedules.
+
+### 👤 Profile
+
+Allowing users to view and manage their personal information.
 
 ---
 
-## ❌ Out of Scope
+## 🔄 Role-Based Experience
 
-The following features are intentionally outside the current MVP:
-
-* AI Assistant
-* Mobile Application
-* Online Exams
-* SMS Notifications
-* Multi-language Support
-
-These features may be considered in future versions.
-
----
-
-## 🛠️ Tech Stack
-
-> Add or remove technologies here as the project evolves.
-
-### Frontend
-
-* `Your Technology`
-* `Your Technology`
-* `Your Technology`
-
-### Backend
-
-* `Your Technology`
-* `Your Technology`
-
-### Database
-
-* `Your Technology`
-
-### Tools & Services
-
-* `Your Technology`
-* `Your Technology`
-
----
-
-## 🏗️ Current Project Structure
+The system follows a **role-based approach**, where the interface and available functionality can change depending on the authenticated user's role.
 
 ```text
-school-management-system/
-│
-├── public/
-│
-├── src/
-│   │
-│   ├── assets/
-│   │
-│   ├── components/
-│   │   ├── common/
-│   │   ├── ParentComponents/
-│   │   ├── StudentComponents/
-│   │   └── TeacherComponents/
-│   │
-│   ├── layouts/
-│   │   ├── ParentLayout/
-│   │   ├── StudentLayout/
-│   │   └── TeacherLayout/
-│   │
-│   ├── pages/
-│   │   ├── Auth/
-│   │   ├── ParentPages/
-│   │   ├── StudentPages/
-│   │   └── TeacherPages/
-│   │
-│   ├── store/
-│   │
-│   ├── App.jsx
-│   ├── index.css
-│   └── main.jsx
-│
-├── index.html
-├── package.json
-├── vite.config.js
-└── README.md
+                 School Management System
+                           │
+          ┌────────────────┼────────────────┐
+          │                │                │
+       Teacher          Student           Parent
+          │                │                │
+      Dashboard        Dashboard        Dashboard
+      Students          Grades          Children
+      Classes           Attendance      Attendance
+      Attendance        Schedule        Grades
+      Grades
+      Schedule
 ```
 
----
-
-## 🧩 Architecture
-
-The application follows a role-based structure.
-
-Each major user role has its own:
-
-* Layout
-* Sidebar
-* Dashboard
-* Pages
-* Navigation
-
-Current structure:
-
-```text
-                    School Management System
-                              │
-             ┌────────────────┼────────────────┐
-             │                │                │
-          Teacher           Student           Parent
-             │                │                │
-          Layout            Layout            Layout
-             │                │                │
-          Sidebar           Sidebar           Sidebar
-             │                │                │
-        Dashboard         Dashboard         Dashboard
-```
-
-This structure makes it easier to expand the system while keeping each role's experience organized.
+This approach keeps the platform organized and ensures that each user can focus on the information and actions relevant to their responsibilities.
 
 ---
 
 ## 📱 Responsive Design
 
-The system is being designed with a **responsive-first mindset**.
+The system is designed to provide a consistent experience across different screen sizes.
 
-The interface is intended to provide a consistent experience across:
+The interface supports:
 
-* 🖥️ Desktop
-* 💻 Laptop
-* 📱 Mobile
-* 📲 Tablet
+- 🖥️ Desktop
+- 💻 Laptop
+- 📱 Mobile
+- 📲 Tablet
 
-Each major screen is planned to have a responsive mobile layout rather than simply shrinking the desktop version.
-
----
-
-## 🎨 UI / UX Direction
-
-The design direction focuses on creating an interface that feels:
-
-* Friendly
-* Modern
-* Educational
-* Clean
-* Professional
-* Accessible
-* Easy to navigate
-
-The visual language uses bright and welcoming educational elements while maintaining a professional SaaS-style interface suitable for a real school environment.
+The UI is designed responsively so that users can access the platform comfortably regardless of the device they are using.
 
 ---
 
-## 🔐 Role-Based Experience
+## 🎨 UI / UX
 
-The platform provides different experiences depending on the authenticated user's role.
+The design direction focuses on creating a modern educational experience that combines usability with a friendly visual identity.
 
-For example:
+The interface aims to be:
+
+- Modern
+- Clean
+- Friendly
+- Professional
+- Intuitive
+- Accessible
+- Responsive
+
+The visual style uses bright and welcoming elements while maintaining the structure and consistency expected from a modern SaaS application.
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+- React
+- Vite
+- Tailwind CSS
+- DaisyUI
+- React Router DOM
+
+### Backend & API
+
+- Strapi
+
+### Database & Data Management
+
+- Strapi Content-Type Builder
+- Strapi REST API
+
+### State Management
+
+- Zustand
+
+### Development & Code Quality
+
+- ESLint
+- Oxlint
+
+### UI/UX & Design
+
+- Figma
+
+> Additional technologies can be added here as the project evolves.
+
+---
+
+## 🏗️ System Architecture
+
+The system follows a modern **Full-Stack Architecture**, where the React frontend communicates with a Strapi-powered backend through REST APIs.
 
 ```text
-Teacher
- ├── Dashboard
- ├── Students
- ├── Classes
- ├── Attendance
- ├── Grades
- └── Schedule
-
-Student
- ├── Dashboard
- ├── Grades
- ├── Attendance
- └── Schedule
-
-Parent
- ├── Dashboard
- ├── Children
- ├── Grades
- ├── Attendance
- └── Messages
+                    School Management System
+                              │
+              ┌───────────────┴───────────────┐
+              │                               │
+          Frontend                         Backend
+              │                               │
+        React + Vite                         Strapi
+        Tailwind CSS                         │
+        DaisyUI                              │
+        React Router                         │
+              │                               │
+              └──────────── REST API ─────────┘
+                                              │
+                                           Database
 ```
 
-The goal is to show each user only the functionality that is relevant to them.
+### Frontend
+
+The frontend is responsible for:
+
+- User interface
+- Navigation
+- Role-based layouts
+- Responsive design
+- User interactions
+- Communicating with the backend APIs
+
+The frontend follows a modular structure to keep reusable components, layouts, pages, and role-specific interfaces organized.
+
+### Backend
+
+**Strapi** is used as the backend and API layer of the system.
+
+It provides:
+
+- Content and data management
+- Content-Type Builder
+- Database structure
+- Data relationships
+- REST API endpoints
+- Backend administration
+- Communication with the React frontend
+
+### Database
+
+The application's data structure is managed through **Strapi Content-Type Builder**, where the required content types and relationships are defined and exposed through the Strapi REST API.
 
 ---
 
-## 📈 Project Status
+## 📂 Frontend Project Structure
 
-**Current Status: 🚧 In Development**
+```text
+src/
+│
+├── assets/
+│
+├── components/
+│   ├── common/
+│   ├── ParentComponents/
+│   ├── StudentComponents/
+│   └── TeacherComponents/
+│
+├── layouts/
+│   ├── ParentLayout/
+│   ├── StudentLayout/
+│   └── TeacherLayout/
+│
+├── pages/
+│   ├── Auth/
+│   ├── ParentPages/
+│   ├── StudentPages/
+│   └── TeacherPages/
+│
+├── store/
+│
+├── App.jsx
+├── index.css
+└── main.jsx
+```
 
-The project is currently under active development.
+This modular structure helps keep the application maintainable and makes it easier to expand the platform with additional features and user roles.
 
-### Completed / In Progress
+---
 
-* [x] Initial project setup
-* [x] React application structure
-* [x] Routing structure
-* [x] Teacher layout
-* [x] Student layout
-* [x] Parent layout
-* [x] Role-specific sidebars
-* [x] Login page
-* [x] Parent children page
-* [ ] Complete dashboards
-* [ ] Authentication & authorization
-* [ ] Students management
-* [ ] Classes management
-* [ ] Attendance management
-* [ ] Schedule management
-* [ ] Grades management
-* [ ] Final dashboard statistics
-* [ ] Production deployment
+## 🔗 Frontend & Backend Communication
+
+The frontend communicates with the Strapi backend through REST API endpoints.
+
+```text
+User
+ │
+ ▼
+React Application
+ │
+ │ HTTP Requests
+ ▼
+Strapi REST API
+ │
+ ▼
+Database
+ │
+ ▼
+Strapi Response
+ │
+ ▼
+React Application
+ │
+ ▼
+User Interface
+```
+
+This separation allows the frontend and backend to be developed and maintained independently while communicating through a clearly defined API layer.
+
+---
+
+## 🌱 Future Vision
+
+The project is designed to evolve into a complete digital school management platform.
+
+Future improvements can include features such as:
+
+- 📊 Advanced reports and analytics
+- 🔔 Real-time notifications
+- 💬 Teacher–Parent messaging
+- 📄 PDF reports
+- 📈 Advanced academic statistics
+- 🗓️ Advanced scheduling
+- 🔐 Advanced permissions and access control
 
 ---
 
 ## 🚀 Getting Started
 
-### 1. Clone the repository
+### Clone the repository
 
 ```bash
 git clone YOUR_REPOSITORY_URL
 ```
 
-### 2. Navigate to the project
+### Navigate to the project
 
 ```bash
 cd school-management-system
 ```
 
-### 3. Install dependencies
+### Install dependencies
 
 ```bash
 npm install
 ```
 
-### 4. Start the development server
+### Run the development server
 
 ```bash
 npm run dev
 ```
 
-The application will then be available through the local development URL provided by Vite.
-
----
-
-## 🏗️ Build for Production
-
-To create a production build:
+### Build for production
 
 ```bash
 npm run build
 ```
 
-To preview the production build locally:
-
-```bash
-npm run preview
-```
-
----
-
-## 🧪 Code Quality
-
-The project includes linting support through Oxlint.
-
-Run:
-
-```bash
-npm run lint
-```
-
----
-
-## 🔮 Vision
-
-The long-term vision is to turn the project into a complete digital school management platform where teachers, students, and parents can interact with the same centralized source of information.
-
-Instead of relying on paper records, spreadsheets, and scattered communication, the system aims to provide a single platform for:
-
-**Students → Classes → Attendance → Grades → Schedules → Communication → Reports**
-
 ---
 
 ## 🤝 Contribution
 
-This project is currently being developed as a structured project and may evolve as new Sprints and features are introduced.
+Contributions, suggestions, and improvements are welcome.
 
-Suggestions, improvements, and contributions are welcome.
+If you would like to contribute:
+
+1. Fork the repository
+2. Create a new branch
+3. Make your changes
+4. Commit your changes
+5. Open a Pull Request
 
 ---
 
 ## 📄 License
 
-This project is currently intended for educational and development purposes.
-
-A formal license can be added when the project reaches its release stage.
+This project is developed for educational and development purposes.
 
 ---
 
@@ -468,5 +412,4 @@ A formal license can be added when the project reaches its release stage.
 
 **Mahmoud Khaled**
 
-School Management System
-Computer Science Project
+Frontend Developer
