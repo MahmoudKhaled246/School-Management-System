@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "../../assets/logo.svg";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import {
   BookOpenCheck,
   CalendarCheck,
@@ -11,9 +11,18 @@ import {
   Users,
 } from "lucide-react";
 import profilePhoto from "../../assets/profile-photo.svg";
+import toast from "react-hot-toast";
 
 export default function StudentSidebar() {
-  return     <div className="h-dvh w-66.25 bg-white border-r border-[#E2E8F0] flex flex-col justify-between ">
+  const navigate = useNavigate();
+  const handleSignOut = () => {
+    localStorage.clear();
+    toast.success("You've been signed out.");
+    navigate("/login");
+  };
+
+  return (
+    <div className="h-dvh w-66.25 bg-white border-r border-[#E2E8F0] flex flex-col justify-between ">
       <div className="top">
         <div className="logo flex py-4 pl-6 items-center gap-3 border-b border-[#E2E8F0]">
           <div
@@ -81,9 +90,13 @@ export default function StudentSidebar() {
           </div>
         </Link>
 
-        <button className="text-[#EF4444] bg-[#FEF2F2] flex justify-center gap-2 py-3 rounded-lg shadow shadow-[#EF4444] cursor-pointer">
+        <button
+          onClick={handleSignOut}
+          className="text-[#EF4444] bg-[#FEF2F2] flex justify-center gap-2 py-3 rounded-lg shadow active:bg-[#EF4444] active:text-white shadow-[#EF4444] cursor-pointer"
+        >
           <LogOut /> Sign Out
         </button>
       </div>
-    </div>;
+    </div>
+  );
 }

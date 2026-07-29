@@ -10,6 +10,7 @@ import * as Yup from "yup";
 import axios from "axios";
 import toast from "react-hot-toast";
 import { useNavigate } from "react-router-dom";
+import { domain } from "../../store";
 // import LogoComponent from "../../components/common/LogoComponent";
 
 export default function LoginPage() {
@@ -26,9 +27,7 @@ export default function LoginPage() {
 
   const handleLogin = async (values) => {
     const data = { identifier: values.email, password: values.password };
-    const domain = "https://pos.skyready.online/api";
     const endpoint = "/auth/local";
-
     const url = domain + endpoint;
 
     await axios
@@ -41,27 +40,33 @@ export default function LoginPage() {
         axios
           .get(`${domain}/users/${userId}?populate=*`)
           .then((res) => {
-            const role = res.data.mkm_user_role.Role;
+            const role = res.data.mkm_user_role?.Role;
 
             if (role == "Teacher") {
+              toast.success("Login successful");
               navigate("/teacher");
             } else if (role == "Parent") {
+              toast.success("Login successful");
               navigate("/parent");
             } else if (role == "Student") {
+              toast.success("Login successful");
               navigate("/student");
             } else {
-              toast.error("User Has No Role");
+              toast.error(
+                "Your account isn't set up yet. Please contact support.",
+              );
             }
           })
           .catch((err) => {
-            toast.error("This User Not Found");
+            toast.error(
+              "Couldn't load your account details. Please try again.",
+            );
           });
       })
       .catch((err) => {
-        toast.error("This User Not Found");
+        toast.error("Incorrect email or password.");
       });
   };
-
   return (
     <div className="w-full h-dvh flex">
       <div className="left w-full flex justify-center lg:w-[50%] lg:bg-white bg-[#F8FAFC] py-16 ">
